@@ -1,0 +1,133 @@
+/* 기본 폰트 */
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+/* font-family: 'NanumSquare'; */
+
+*{
+  font-family: 'NanumSquare';
+  margin: 0;
+}
+
+:root {
+   --bg: #e3e4e8;
+   --fg: #17181c;
+   --bs1: #ffffff;
+   --bs2: #c1c2c5;
+   --tick: #454954;
+   --transDur: 0.1s;
+
+  --highlight-left: 0;
+  --pagination-width: 0;
+}
+
+
+.background{
+  width: 95vw;
+  height: 100vh;
+  max-width: 1500px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0.0, 0.0, 0.0, 0.2);
+  /* background-color: rgb(255, 0, 0); */
+}
+
+
+.dashboard{
+  /* margin-top: vh; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 10vh; */
+  /* border: 1px black solid; */
+  /* background-color: aqua; */
+}
+
+.title{
+  text-align: center;
+  padding-top: 3vh;
+  height: 15vh;
+  font-size: 2em;
+  font-weight: 800;
+  /* background-color: aqua; */
+}
+
+.title >span{
+  font-size: 0.5em;
+  font-weight: 400;
+  margin-left: 30vw;
+}
+
+.dashboard-content{
+  height: 80vh;
+  display: flex;
+  text-align: center;
+  /* background-color: blueviolet; */
+}
+
+.dashboard-content > section {
+  width: 60vw;
+  margin: 1vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cri{
+  width: 40vw;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0.0, 0.0, 0.0, 0.2);
+  margin: 1vh;
+  padding: 2vh;
+
+}
+
+.cct {
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0.0, 0.0, 0.0, 0.2);
+  margin-bottom: 1vh;
+  padding: 2vh;
+  height: 33.5vh;
+}
+
+.illum{
+  border-radius: 10px;
+  padding: 2vh;
+  box-shadow: 2px 2px 10px rgba(0.0, 0.0, 0.0, 0.2);
+  height: 33.5vh;
+}
+
+
+.dashboard-content p {
+  color: gray;
+  margin-bottom: 1vh;
+  font-size: 0.9em;
+}
+
+.dashboard-content h4 {
+  margin-bottom: 1vh;
+  color: black;
+  font-weight: 800;
+  font-size: 1.2em;
+}
+
+.dashboard-content h3 {
+  color: #6E89FF;
+  font-weight: 800;
+  font-size: 3.5em;
+  margin-top: 0.1vh;
+}
+.dashboard-content span {
+  color: #6E89FF;
+  font-weight: 800;
+  font-size:0.7em;
+  margin-top: 0.5vh;
+}
+
+.chart-box{
+  /* background-color: #0004; */
+}
+
+.chart-text{
+  text-align: center;
+  /* fill: #6E89FF; */
+  font-weight: 800;
+}
